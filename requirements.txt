@@ -1,0 +1,33 @@
+# Object Identifier Dependencies
+torch
+torchvision
+transformers
+opencv-python
+Pillow
+numpy
+matplotlib
+requests
+
+# CLIP model - using git+https for latest version
+git+https://github.com/openai/CLIP.git
+
+# Object Detection models
+ultralytics>=8.0.0  # YOLOv8 for object detection
+roboflow>=1.0.0     # For additional object detection models
+
+# For vLLM integration
+vllm>=0.2.0
+
+# For Ollama integration
+ollama>=0.1.0
+
+# Additional utilities
+gradio>=3.40.0  # For web interface
+streamlit>=1.25.0  # Alternative UI option
+fastapi>=0.100.0  # For API endpoints
+uvicorn>=0.23.0  # ASGI server
+python-multipart>=0.0.6  # For file uploads
+
+# Image processing
+scikit-image>=0.21.0
+imageio>=2.31.0

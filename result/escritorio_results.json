@@ -1,0 +1,113 @@
+{
+  "image_path": "img/escritorio.png",
+  "timestamp": "cpu",
+  "caption": "a bunch of pens and scissors on a wooden table",
+  "clip_objects": {
+    "scissors": 0.9957013726234436,
+    "tijeras": 0.004298591520637274
+  },
+  "yolo_detections": [
+    {
+      "class_name": "scissors",
+      "confidence": 0.924272358417511,
+      "bounding_box": {
+        "left": 333,
+        "top": 142,
+        "right": 451,
+        "bottom": 357
+      },
+      "class_id": 76
+    },
+    {
+      "class_name": "scissors",
+      "confidence": 0.8947253823280334,
+      "bounding_box": {
+        "left": 96,
+        "top": 100,
+        "right": 333,
+        "bottom": 223
+      },
+      "class_id": 76
+    },
+    {
+      "class_name": "scissors",
+      "confidence": 0.8138116598129272,
+      "bounding_box": {
+        "left": 37,
+        "top": 181,
+        "right": 297,
+        "bottom": 304
+      },
+      "class_id": 76
+    },
+    {
+      "class_name": "scissors",
+      "confidence": 0.7672311663627625,
+      "bounding_box": {
+        "left": 83,
+        "top": 53,
+        "right": 253,
+        "bottom": 112
+      },
+      "class_id": 76
+    }
+  ],
+  "advanced_analysis": "Advanced analysis not available",
+  "output_image_path": "result/escritorio_with_boxes.png",
+  "bounding_boxes": [
+    {
+      "object": "scissors",
+      "confidence": 0.924272358417511,
+      "bounding_box": {
+        "left": 333,
+        "top": 142,
+        "right": 451,
+        "bottom": 357
+      },
+      "color": "#FF0000",
+      "detection_method": "YOLO"
+    },
+    {
+      "object": "scissors",
+      "confidence": 0.8947253823280334,
+      "bounding_box": {
+        "left": 96,
+        "top": 100,
+        "right": 333,
+        "bottom": 223
+      },
+      "color": "#00FF00",
+      "detection_method": "YOLO"
+    },
+    {
+      "object": "scissors",
+      "confidence": 0.8138116598129272,
+      "bounding_box": {
+        "left": 37,
+        "top": 181,
+        "right": 297,
+        "bottom": 304
+      },
+      "color": "#0000FF",
+      "detection_method": "YOLO"
+    },
+    {
+      "object": "scissors",
+      "confidence": 0.7672311663627625,
+      "bounding_box": {
+        "left": 83,
+        "top": 53,
+        "right": 253,
+        "bottom": 112
+      },
+      "color": "#FFFF00",
+      "detection_method": "YOLO"
+    }
+  ],
+  "models_used": {
+    "clip": true,
+    "blip": true,
+    "yolo": true,
+    "ollama": true
+  }
+}
