@@ -1,0 +1,12 @@
+{
+  "image_path": "img/basico.png",
+  "timestamp": "cpu",
+  "caption": "a pencil, a pen and a pencil on a white background royalty illustration",
+  "advanced_analysis": "Advanced analysis not available",
+  "models_used": {
+    "clip": true,
+    "blip": true,
+    "yolo": true,
+    "ollama": true
+  }
+}
